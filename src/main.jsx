@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { Portrait, Vengeance} from './Greeting.jsx'
 import Test from './Test.jsx'
 import Bio from './Assignment.jsx'
+import TodoList from './Challenges.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <Vengeance />
     <Test />
     <Bio />
+    <TodoList />
   </StrictMode>,
 )

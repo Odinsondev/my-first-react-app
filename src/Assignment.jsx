@@ -16,7 +16,7 @@ export default function Bio() {
         You can find my thoughts here.
         <br/>
         <br/>
-        <b>And <i>{testObject.noun2}</i></b> of criminals!   {/* can reference object values */}
+        <b>And <i>{testObject.noun}</i></b> of scientists!   {/* can reference object values */}
       </p>
     </>
   );
