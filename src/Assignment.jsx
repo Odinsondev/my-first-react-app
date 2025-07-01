@@ -8,7 +8,7 @@ export default function Bio() {
       <div className="intro">
         <h1>Welcome to Gotham City!</h1>
       </div>
-      <p style={{                   //second pair of crly brackets is to pass an object
+      <p style={{                   //second pair of curly brackets is to pass an object
         backgroundColor: 'black',   //backgroundColor not background-color
         color: 'purple',
       }}
