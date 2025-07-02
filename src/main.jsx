@@ -6,7 +6,16 @@ import { Portrait, Vengeance} from './Greeting.jsx'
 import Test from './Test.jsx'
 import Bio from './Assignment.jsx'
 import TodoList from './Challenges.jsx'
-import { App2, App3, App4, App5 } from './Rendering.jsx'
+import {
+  App2,
+  App3,
+  App4,
+  App5,
+  PackingList,
+  PackingListChallenge1,
+  PackingListChallenge2,
+  DrinkList
+} from './Rendering.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,6 +28,10 @@ createRoot(document.getElementById('root')).render(
     <App3 />
     <App4 />
     <App5 />
+    <PackingList />
+    <PackingListChallenge1 />
+    <PackingListChallenge2 />
+    <DrinkList />
   </StrictMode>,
 )
 
