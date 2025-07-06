@@ -14,7 +14,10 @@ import {
   PackingList,
   PackingListChallenge1,
   PackingListChallenge2,
-  DrinkList
+  DrinkList,
+  List4,
+  RecipeList,
+  Poem
 } from './Rendering.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -32,6 +35,9 @@ createRoot(document.getElementById('root')).render(
     <PackingListChallenge1 />
     <PackingListChallenge2 />
     <DrinkList />
+    <List4 />
+    <RecipeList />
+    <Poem />
   </StrictMode>,
 )
 
