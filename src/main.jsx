@@ -19,6 +19,8 @@ import {
   RecipeList,
   Poem
 } from './Rendering.jsx'
+import { Gallery, Profile2, Profile3 } from './Props.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -38,8 +40,13 @@ createRoot(document.getElementById('root')).render(
     <List4 />
     <RecipeList />
     <Poem />
+    <Gallery />
+    <Profile2 />
+    <Profile3 />
   </StrictMode>,
 )
+
+//page design is not correct as each assignment originally had its own CSS
 
 
 //map() reminder
